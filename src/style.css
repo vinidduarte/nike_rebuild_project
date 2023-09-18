@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo-place{
+    background-color: black;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    margin-left: 100px;
+}
+.logo-place img{
+    width: 80px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+.items-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-left: 450px;
+    border-bottom: 1px solid black;
+}
+.items-list a{
+    margin: 40px 40px 60px 60px;
+    text-decoration: none;
+    color: black;
+    font-family: 'PT Sans';
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline-block;
+    white-space: nowrap;
+}
+.items-list a:hover{
+    text-shadow: 0px 3px 20px rgba(0,0,0,0.69);
+}
+
+.background-image{
+        filter: blur(5px);
+        transform: scaleX(-1) rotate(58deg);   
+}
+.snkrs-container{
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    padding-left: 280px;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#inline-background{
+    display: flex;
+    flex-direction: row;
+}
+
+#title{
+    font-family: 'PT Sans';
+    font-size: 60px;
+    letter-spacing: 20px;
+    font-weight: lighter;
+}
+.semi-circle {
+    width: 700px;
+    height: 350px;
+    background: linear-gradient(to bottom, rgba(160, 189, 213, 1) 0%, rgba(160, 189, 213, 0) 100%);
+    border-radius: 700px 700px 0 0;
+    z-index: 1;
+    position: absolute;
+  }
+  
+.snkrs{
+    position: absolute;
+    z-index: 2;
+}
+#sneakers-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+
+}
+
+.icons{
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.icons img{
+    margin-left: 15px;
+}
