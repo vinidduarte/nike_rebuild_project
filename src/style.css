@@ -20,25 +20,27 @@
 header{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
 }
 .items-list{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    margin-left: 450px;
     border-bottom: 1px solid black;
 }
 .items-list a{
-    margin: 40px 40px 60px 60px;
     text-decoration: none;
     color: black;
     font-family: 'PT Sans';
     font-size: 20px;
     font-weight: bolder;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     white-space: nowrap;
+    width: 400px;
 }
 .items-list a:hover{
     text-shadow: 0px 3px 20px rgba(0,0,0,0.69);
@@ -46,19 +48,22 @@ header{
 
 .background-image{
         filter: blur(5px);
-        transform: scaleX(-1) rotate(58deg);   
+        transform: scaleX(-1) rotate(58deg);  
+        z-index: 3; 
 }
 .snkrs-container{
     display: flex;
     align-items: center;
     justify-content: top;
-    padding-left: 280px;
     flex-direction: column;
     margin-top: 100px;
 }
 #inline-background{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
 #title{
@@ -66,6 +71,7 @@ header{
     font-size: 60px;
     letter-spacing: 20px;
     font-weight: lighter;
+    
 }
 .semi-circle {
     width: 700px;
@@ -92,10 +98,71 @@ header{
     width: 30px;
     height: 30px;
     margin-top: 40px;
-    margin-left: 500px;
     display: flex;
     flex-direction: row;
+    margin-right: 250px;
 }
 .icons img{
     margin-left: 15px;
+}
+.snkrs img{
+    width: 600px;
+    height: 600px;
+}
+.color-button-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 300px;
+}
+.color-button-container button{
+    border: none;
+    border-radius: 1000px;
+    font-family: 'PT Sans', sans-serif;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+#red-button{
+    background-color: red;
+}
+#grey-button{
+    background-color: grey;
+}
+#original-button{
+    background-color:  rgba(160, 189, 213, 1)
+}
+.buy-btn{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 250px;
+    margin-left: 750px;
+}
+#one-btn {
+    font-family: 'PT Sans', sans-serif;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    padding: 30px 50px;
+    margin: 0 0 30px 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#second-btn{
+    font-family: 'PT Sans', sans-serif;
+    background-color: white;
+    font-weight: bolder;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    padding: 30px 50px;
+    margin: 0 0 30px 0px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
