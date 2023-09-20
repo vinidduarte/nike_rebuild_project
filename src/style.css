@@ -117,10 +117,10 @@ header{
 .color-button-container button{
     border: none;
     border-radius: 1000px;
-    font-family: 'PT Sans', sans-serif;
     width: 30px;
     height: 30px;
     margin: 10px;
+    cursor: pointer;
 }
 #red-button{
     background-color: red;
