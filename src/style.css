@@ -2,7 +2,12 @@
     padding: 0;
     margin: 0;
 }
-
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
 .logo-place{
     background-color: black;
     border-radius: 0 0 20px 20px;
@@ -11,18 +16,13 @@
     align-items: center;
     width: 120px;
     height: 120px;
-    margin-left: 100px;
+    margin-right: 50px;
 }
 .logo-place img{
     width: 80px;
 }
 
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: auto;
-}
+
 .items-list{
     display: flex;
     flex-direction: row;
@@ -62,8 +62,9 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     margin-top: 50px;
+    justify-content: space-between ;
+    width: 100%;
 }
 
 #title{
@@ -97,14 +98,17 @@ header{
 .icons{
     width: 30px;
     height: 30px;
-    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
     display: flex;
     flex-direction: row;
-    margin-right: 250px;
+    margin: 50px;
 }
 .icons img{
-    margin-left: 15px;
+    width: 30px;
+    margin: 20px
 }
+
 .snkrs img{
     width: 600px;
     height: 600px;
@@ -136,7 +140,9 @@ header{
     height: 100px;
     display: flex;
     margin-top: 250px;
-    margin-left: 750px;
+    justify-content: center;
+    align-items: center;
+
 }
 #one-btn {
     font-family: 'PT Sans', sans-serif;
